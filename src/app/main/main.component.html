@@ -1,0 +1,16 @@
+<div class="main-page-container" role="main">
+
+    <div class="title-container">
+        <h1>Dashboard</h1>
+    </div>
+    <div class="boards-container">
+        <div class="iframe-container">
+            <iframe id="player1-frame" src="/iframepage?player=1"
+                [style.opacity]="playerTurn === '1'? '1': '.5'"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe id="player2-frame" src="/iframepage?player=2"
+                [style.opacity]="playerTurn === '2'? '1': '.5'"></iframe>
+        </div>
+    </div>
+</div>

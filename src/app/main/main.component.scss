@@ -1,0 +1,30 @@
+.main-page-container {
+    .title-container {
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .boards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+
+            iframe {
+                width: 417px;
+                height: 417px;
+                border: 1px solid #000;
+            }
+        }
+    }
+}
