@@ -14,6 +14,10 @@
         justify-content: center;
         gap: 40px;
 
+        @media only screen and (max-width: 880px) {
+            flex-direction: column;
+        }
+
         .iframe-container {
             display: flex;
             justify-content: center;
