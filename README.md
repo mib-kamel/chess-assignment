@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-[Demo](http://135.181.30.175/mainpage)
+[Demo](https://mib-kamel.github.io/chess-assignment/mainpage)
 
 ## Development server
 
@@ -29,3 +29,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## build steps
+
+- ng build  --base-href "<https://mib-kamel.github.io/chess-assignment/>"
+
+- npx angular-cli-ghpages --dir=dist/chess-assignment
